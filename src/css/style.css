@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.firstpage{
+    width: 100%;
+    height: 100%;
+    background: url("../img/header-bg.jpg");
+    background-size: cover;
+
+}
+.navbar h1{ 
+    color: #f9f8f78d;
+    margin-left: 60px;
+    margin-top: 40px;
+        float: left;
+        
+}
+.navbar a{
+    font-size: 20px;
+    color: #f9f8f7a0;
+    margin-right: 60px;
+    margin-top: 40px;
+    float: right;
+    text-decoration: none;
+
+}
+.text{
+    width: 700px;
+    padding-left: 25%;
+    padding-top: 15%;
+    text-align: center;
+    font-size: xx-large;
+}
+.btn{
+    width: 220px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #ffc800;
+    border-radius: 10px;
+    border: none;
+    transition: 0.8;
+}
+.btn:hover{
+
+    transform: scale(0.8);
+    background-color: #ff000095;
+}
+
+
+
+.text5{
+    background: url("../img/map-image.png");
+    background-size: cover;
+    font-size: xx-large;
+}
+    .text5 input{
+        width: 100%;
+        padding: 0 16px;
+        height: 60px;
+    
+    }
+    .txt5{
+        margin: 10px 0;
+        border-radius: 10px;}
+        .btn5{
+            width: 150px;
+            height: 50px;
+            color: #ffffff;
+            background-color: #ff0000;
+            border-radius: 20px;
+            border: none;
+            transition: 0.8;
+        }
+        .btn5:hover{
+        
+            transform: scale(0.8);
+            background-color: #ff000095;
+        }
+        
