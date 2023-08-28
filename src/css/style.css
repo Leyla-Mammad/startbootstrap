@@ -47,28 +47,92 @@ body{
 }
 .btn:hover{
 
-    transform: scale(0.8);
-    background-color: #ff000095;
+    background-color: #e9bf0495;
+}
+
+.text2{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.txt2t{
+margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+ .txt2a{
+    font-size: 60px;
+ }
+
+
+.text3{
+    text-align: center;
+    width: 100%;
+     margin: auto;
+    padding-top: 100px;
+    margin-right:100%;
+}
+.txt-3{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.humble{
+    width: 25%;
+    float: left;
+    margin-left: 10%;
+    text-align: right;
+}
+.march{
+    width: 25%;
+    float: right;
+    margin-right: 10% ;
+    text-align: left;
+}
+.december{
+    width: 25%;
+    float: left;
+    margin-left: 10%;
+    text-align: right;
+}
+.july{
+    width: 25%;
+    float: right;
+    margin-right: 10% ;
+    text-align: left;
 }
 
 
+.img{width: 20%;
+    margin-left:40%;
+    margin-right: 40%;
+    text-align: center;
+    border-radius:200px;
+}
 
-.text5{
-    background: url("../img/map-image.png");
+
+.text5{width: 100%;
+    background: url("./src/img/map-image.png");
     background-size: cover;
-    font-size: xx-large;
 }
     .text5 input{
-        width: 100%;
-        padding: 0 16px;
+   width: 40%;
         height: 60px;
     
     }
     .txt5{
-        margin: 10px 0;
-        border-radius: 10px;}
+
+        border-radius: 10px;
+    float: left;}
+    .text5t{
+        float: right;
+    }
         .btn5{
-            width: 150px;
+            width: 300px;
             height: 50px;
             color: #ffffff;
             background-color: #ff0000;
@@ -77,8 +141,7 @@ body{
             transition: 0.8;
         }
         .btn5:hover{
-        
-            transform: scale(0.8);
+   
             background-color: #ff000095;
         }
         
